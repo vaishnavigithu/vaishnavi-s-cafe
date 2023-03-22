@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat&family=Dancing+Script&family=Gloria+Hallelujah&family=Kaushan+Script&family=Permanent+Marker&family=Playball&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat&family=Dancing+Script&family=Gloria+Hallelujah&family=Inspiration&family=Kaushan+Script&family=Permanent+Marker&family=Playball&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+
+
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.center{
+    width: 100vw;
+    height: 90vh;
+    background:url('https://wallpaperaccess.com/full/462773.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.content{
+    position: relative;
+    top:250px;
+    left:250px;
+}
+.center h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Playball', cursive;
+    position: relative;
+    left:220px;
+    
+}
+ .center button{
+    padding: 20px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.span{
+    float: left;
+    position: relative; 
+    bottom: -287px;
+    left: -239px;
+    color:white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: black;
+}
+.section-2{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(198, 153, 240);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.section-2 h1{
+    height: 20vh;
+    font-size: 30px;
+    color: white;
+    background-color:rgb(6, 10, 5);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playball', cursive;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.section-2 .menus h2{
+    color: white;
+
+}
+.section-2 .menus .menu1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+}
+.section-2 .menus .menu1 li{
+    padding: 15px;
+}
+
+.section-3{
+    background-color: rgb(124, 139, 167);
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.section-3 h1{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+.section-3 p{
+    font-size: 20px;
+}
+.section-3 p1{
+    font-size: 25px;
+}
+input{
+    display:flex ;
+    flex-direction: column;
+    /* margin-top: 15px; */
+    width: 60%;
+    height:30%;
+    /* padding: 10px ; */
+    margin-left: 10px;
+    /* font-size: 10px; */
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#signup-form{
+    width: 800px;
+    margin: 20px auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color:darksalmon;
+    padding: 20px;
+    font-size: 20px;
+    color:black;
+}
+#login-form{
+    width: 700px;
+    margin: 20px auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    background-color: darkslategray;
+    /* text-align: center; */
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+#signup-form, #login-form{
+    display: none;
+}
+.section-3 .new{
+    height:40vh;
+}
+.new p{
+    float: left;
+    margin: 100px;
+    position: relative;
+    top:10ox
+}
+.new img{
+    float: right;
+    margin:100px;
+    position: relative;
+    top: -80px;
+}
+ .vision p{
+    float: left;
+}
+.vision .img{
+    float: right;
+}
